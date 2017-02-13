@@ -1,0 +1,33 @@
+{
+	"name": "webPackMvnTest",
+	"version": "1.0.0",
+	"description": "Archetype Maven - Webpack - React",	
+	"main": "main.js",
+	"scripts": {
+		"watch": "webpack --watch -d",
+		"prebuild": "npm install",
+		"build": "webpack -d"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {				
+		"react": "^15.0.2",
+    	"react-dom": "^15.0.1"
+	},
+	"devDependencies": {
+		"webpack": "^1.13.0",
+		"babel-core": "^6.7.6",
+    	"babel-loader": "^6.2.4",
+    	"babel-plugin-syntax-async-functions": "^6.5.0",
+    	"babel-plugin-syntax-flow": "^6.5.0",
+    	"babel-plugin-syntax-jsx": "^6.5.0",
+    	"babel-plugin-syntax-object-rest-spread": "^6.5.0",
+    	"babel-plugin-syntax-trailing-function-commas": "^6.5.0",
+    	"babel-plugin-transform-flow-strip-types": "^6.5.0",
+    	"babel-plugin-transform-object-rest-spread": "^6.6.5",
+    	"babel-plugin-transform-react-jsx": "^6.7.5",
+    	"babel-plugin-transform-regenerator": "^6.5.2",
+    	"babel-plugin-transform-runtime": "^6.5.2",
+    	"babel-preset-es2015": "^6.5.0"  	
+	}
+}
