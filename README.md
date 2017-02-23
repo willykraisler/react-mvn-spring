@@ -1,1 +1,1 @@
-# react-mvn-spring
+# react-webpack java compilation with mvn 
